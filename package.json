@@ -1,0 +1,19 @@
+{
+  "name": "None",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GaganNayyarHepta/vendor-data.git",
+  "author": "GaganNayyarHepta <gagan@heptagon.in>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node \"build/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.335.0",
+    "aws-sdk": "^2.1381.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
